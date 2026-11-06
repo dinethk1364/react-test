@@ -1,0 +1,19 @@
+.paragraph p {
+    color: rgb(0, 19, 105);
+    text-align: center;
+    font-family: sans-serif;
+}
+.paragraph button {
+    align-self: flex-start;
+}
+.paragraph {
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcbbbb;
+    padding: 10px;
+    border-radius: 10px;
+}

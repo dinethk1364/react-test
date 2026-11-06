@@ -1,0 +1,25 @@
+.topicBox p,
+.topicBox span,
+.topicBox h1,
+.topicBox h2,
+.topicBox h3 {
+    margin: 0;
+}
+.topicBox {
+    background-color: rgb(255, 134, 134);
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    gap: 15px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.text {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}

@@ -1,0 +1,16 @@
+.ddk {
+    margin: 10px 0;
+}
+.test {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #33ffe4;
+  transform: rotate(-45deg);
+  margin: 50px auto; 
+}
+.para {
+    font-style: italic;
+    position: relative;
+    left: 10px;
+}

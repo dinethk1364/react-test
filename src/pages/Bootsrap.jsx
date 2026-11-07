@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Cards from '../components/Cards';
+import Carousel from '../components/Carousel';
 import Modal from 'react-bootstrap/Modal';
 
 export default function Bootsrap() {
@@ -28,6 +29,7 @@ export default function Bootsrap() {
             </Offcanvas>
 
             <h1>React Bootstrap</h1>
+            <Carousel/>
             <div className="acc">
                 <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="0">

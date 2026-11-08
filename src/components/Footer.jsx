@@ -9,7 +9,7 @@ export default function Footer() {
                         <p>dinethsilva30@gmail.com</p>
                     </li>
                     <li>
-                        <a target="_blank" href="https://dinethsilva.com/">dinethsilva.com</a>
+                        <a href="https://dinethsilva.com/" target='_black' rel="noopener">dinethsilva.com</a>
                     </li>
                 </ul>
 

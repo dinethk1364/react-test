@@ -45,3 +45,7 @@
     flex-direction: row;
     gap: 15px;
 }
+.btn1 {
+    width: 100px;
+    margin: 20px;
+}

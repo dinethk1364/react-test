@@ -6,8 +6,10 @@ import Nav from "./components/Navigation"
 import Footer from "./components/Footer"
 import Counter from "./pages/Counter";
 import Bootsrap from "./pages/Bootsrap";
+import Event from "./pages/Event";
 
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import UseEffects from "./pages/UseEffects";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/counter" element={<Counter/>} />
           <Route path="/bootsrap" element={<Bootsrap/>} />
+          <Route path="/event" element={<Event/>} />
+          <Route path="/useeffect" element={<UseEffects/>} />
         </Routes>
       </div>
       <Footer/>
